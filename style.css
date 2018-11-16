@@ -38,9 +38,6 @@ a:hover{text-decoration: none; cursor:pointer;}
 
 /* Sizes */
 
-.bloc-xxl{
-	padding:200px 50px;
-}
 .bloc-xl{
 	padding:150px 50px;
 }
@@ -52,6 +49,53 @@ a:hover{text-decoration: none; cursor:pointer;}
 }
 .bloc-sm{
 	padding:20px 50px;
+}
+
+/* = Full Screen Blocs 
+-------------------------------------------------------------- */
+
+.bloc-fill-screen{
+	padding-top:0;
+	position: relative;
+	height:100vh;
+}
+.bloc-fill-screen > .container{
+	position:relative;
+	top:50%;
+	transform:translateY(-50%);
+	-webkit-transform:translateY(-50%);
+}
+.bloc-fill-screen .fill-bloc-top-edge, .bloc-fill-screen .fill-bloc-bottom-edge{
+	position: absolute;
+	margin: 20px auto;
+	left: 0;
+	right: 0;
+	z-index: 1;
+	transform: none;
+}
+.bloc-fill-screen .fill-bloc-top-edge{
+	top:0;
+}
+.bloc-fill-screen .fill-bloc-bottom-edge{
+	top: initial;
+	bottom: 20px;
+}
+.blocs-hero-btn-dwn{
+	width: 58px;
+	height: 58px;
+	display: block;
+	margin:0 auto;
+	line-height: 58px;
+	padding: 0;
+	border-radius: 50%;
+	text-align: center;
+	font-size: 18px;
+	color: rgba(255,255,255,.8);
+	background: rgba(0,0,0,.6);
+	border:0;
+}
+.blocs-hero-btn-dwn:hover{
+	color: rgba(255,255,255,1);
 }
 
 
@@ -75,13 +119,6 @@ a:hover{text-decoration: none; cursor:pointer;}
 }
 .texture-darken-strong::before{
 	background: rgba(0,0,0,0.8);
-}
-
-
-/* Background Effects */
-
-.b-parallax{
-	background-attachment:fixed;
 }
 
 
@@ -194,10 +231,8 @@ a:hover{text-decoration: none; cursor:pointer;}
 	font-weight: 300;
 }
 #bloc-1 h1{
-	font-family: Lato;
-	font-weight: 300;
-	font-size: 48px;
-	line-height: 56px;
+	font-size: 44px;
+	line-height: 46px;
 }
 #bloc-2 h1{
 	font-family: Lato;
@@ -240,20 +275,19 @@ a:hover{text-decoration: none; cursor:pointer;}
 	font-size: 38px;
 	line-height: 40px;
 }
-#bloc-4 h3{
-	font-size: 36px;
-	line-height: 38.75px;
+#bloc-4 p{
+	font-size: 18px;
 }
 #bloc-5 h2{
 	line-height: 26.000001907348633px;
 }
-#bloc-7 h1{
+#contact-info-bloc h1{
 	font-family: Lato;
 	font-weight: 300;
 	font-size: 44px;
 	line-height: 56px;
 }
-#bloc-7 h3{
+#contact-info-bloc h3{
 	font-family: Lato;
 	font-weight: 400;
 }
@@ -973,11 +1007,7 @@ p{
 .bloc-group-text-vc{
 	margin-top:0%;
 }
- #bloc-1 h1{
-	font-size: 24px;
-	line-height: 26px;
-}
-#bloc-2 h1{
+ #bloc-2 h1{
 	font-size: 24px;
 	line-height: 26px;
 }
@@ -996,14 +1026,10 @@ p{
 	font-size: 26px;
 	line-height: 28px;
 }
-#bloc-4 h3{
-	font-size: 24px;
-	line-height: 26px;
-}
 #bloc-5 h2{
 	line-height: 26px;
 }
-#bloc-7 h1{
+#contact-info-bloc h1{
 	font-size: 26px;
 	line-height: 28px;
 }
