@@ -122,6 +122,13 @@ a:hover{text-decoration: none; cursor:pointer;}
 }
 
 
+/* Background Effects */
+
+.b-parallax{
+	background-attachment:fixed;
+}
+
+
 /* Dark theme */
 
 .d-bloc{
@@ -507,6 +514,11 @@ button{
 }
 
 
+/* = Text & Icon Styles
+-------------------------------------------------------------- */
+.pressed-t{
+	text-shadow:0 1px 0 #FFF;
+}
 
 
 .panel-sq, .panel-sq .panel-heading, .panel-sq .panel-footer{
@@ -750,6 +762,9 @@ p{
 .tc-outer-space{
 	color:#47454A!important;
 }
+.tc-sunglow{
+	color:#FFD31F!important;
+}
 .tc-dark-jungle-green{
 	color:#212121!important;
 }
@@ -781,11 +796,11 @@ p{
 .bg-Screen-20Shot-202018-11-10-20at-208-35-12-20PM{
 	background-image:url("img/Screen%20Shot%202018-11-10%20at%208.35.12%20PM.png");
 }
-.bg-Screen-20Shot-202018-11-12-20at-207-19-03-20AM{
-	background-image:url("img/Screen%20Shot%202018-11-12%20at%207.19.03%20AM.png");
-}
 .bg-Screen-20Shot-202018-11-12-20at-207-24-52-20AM{
 	background-image:url("img/Screen%20Shot%202018-11-12%20at%207.24.52%20AM.png");
+}
+.bg-IMG-1532{
+	background-image:url("img/IMG_1532.jpg");
 }
 
 
